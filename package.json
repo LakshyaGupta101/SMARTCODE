@@ -1,0 +1,23 @@
+{
+  "name": "smart-coding-environment",
+  "version": "1.0.0",
+  "description": "Smart Coding Environment - A collaborative coding platform with pair programming, study groups, and real-time code execution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "keywords": [
+    "coding",
+    "collaboration",
+    "editor",
+    "websocket"
+  ],
+  "author": "Smart Coding Environment",
+  "license": "MIT"
+}
